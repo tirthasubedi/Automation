@@ -10,14 +10,19 @@
 
 # How to Run a Program?
     - After getting the code and installing the necessary software. 
-    - Change the web driver path for the chrome driver (which is the path to where you downloaded chrome drive earlier)
+    - Change the web driver path for the chrome driver (which is the path to where you downloaded chrome drive earlier). 
+      {(Right-click on chrome driver and extract it. After that right-click on extracted chrome driver and copy its path then 
+      past or replace the exsiting path on the code)}
     - After the chrome path has been changed, then you can run from a terminal using command: python main.py
       or from any IDE 
-    - Once you execute a program, then it will start to automate through the Allegiant site by auto-filling all the input fields.
-    - Once automation is completed and the browser closed then you will see prices matched on the IDE output or on the terminal.
+    - Once you execute a program, then it will start to automate through the Allegiant site by auto-filling all 
+      the input fields.
+    - Once automation is completed and the browser closed then you will see prices matched on the IDE output 
+      or on the terminal.
 
  
 # Additional info
    - Clone or download a program from Github
    - I have used time delay to give some time for Allegiant site to fully load 
    - Visit selenium-python for additional info if any errors occurred
+   - It runs on both linux and mac
